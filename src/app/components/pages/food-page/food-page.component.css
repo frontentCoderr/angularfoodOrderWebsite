@@ -1,0 +1,134 @@
+/* food page */
+.faicon {
+    color: #e72522;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+
+.container>* {
+    min-width: 15rem;
+    max-width: 30rem;
+}
+
+img {
+    border-radius: 3rem;
+    display: flex;
+    flex: 1 0;
+    object-fit: cover;
+    height: 21rem;
+    margin: 1rem;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border-radius: 3rem;
+    padding: 2rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favorite {
+    color: #e72929;
+    font-size: 2rem;
+}
+
+.favorite.not {
+    color: gray;
+}
+
+.origins {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5rem 0;
+}
+
+.details .origins>span {
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    border-radius: 2rem;
+    background-color: aliceblue;
+}
+
+.details .cook-time {
+    margin: .5rem;
+}
+
+.details .cook-time span {
+    padding: .3rem .5rem .3rem 0;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+}
+
+.details .price {
+    font-size: 1.5rem;
+    margin: .3rem .5rem .3rem 0;
+    color: green;
+    font-weight: 450;
+}
+
+.details .price::before {
+    content: 'Price:';
+    color: gray;
+    margin-left: .3rem;
+    font-size: 1.3rem;
+}
+
+.details button {
+    color: #f1f1f1;
+    background-color: #e72929;
+    border: none;
+    font-size: 1.2rem;
+    padding: .3rem;
+    border-radius: 10rem;
+    outline: none;
+    margin-top: .5rem;
+}
+
+.details button:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags a {
+    background-color: #f0f0f0;
+    padding: 0.3rem 1rem;
+    margin: 0.2rem 0.15rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    color: black;
+}
+
+.tags a:hover {
+    opacity: 0.8;
+    border-color: #e72522;
+    color: #e72522;
+}
