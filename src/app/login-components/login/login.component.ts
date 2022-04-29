@@ -6,8 +6,7 @@ import { AuthService } from 'src/app/services/auth.service';
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 @Component({
   selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  templateUrl: './login.component.html'
 })
 export class LoginComponent implements OnInit {
   faLock = faLock;
